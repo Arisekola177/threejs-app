@@ -1,14 +1,13 @@
+import Navbar from "./components/Navbar"
+import Hero from "./sections/Hero"
 
-import Canvas from "./canvas/Index"
-import Customizer from './Pages/Customizer'
-import Home from './Pages/Home'
+
 function App() {
   return (
-    <main className="app transition-all ease-in">
-      <Home />
-      <Canvas />
-      <Customizer />
-    </main>
+    <div className="relative">
+      <Navbar />
+       <Hero />
+    </div>
   
   )
 }
